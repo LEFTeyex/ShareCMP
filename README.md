@@ -104,10 +104,10 @@ bash tools/dist_test.sh configs/sharecmp/sharecmp_mit-b2_2xb4-200e_uplight-512x6
   title={ShareCMP: Polarization-Aware RGB-P Semantic Segmentation},
   author={Liu, Zhuoyan and Wang, Bo and Wang, Lizhi and Mao, Chenyu and Li, Ye},
   journal={IEEE Transactions on Circuits and Systems for Video Technology},
-  year={2025},
   volume={35},
   number={10},
   pages={10316-10329},
+  year={2025},
   doi={10.1109/TCSVT.2025.3570764},
 }
 ```
