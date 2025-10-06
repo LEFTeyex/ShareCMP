@@ -17,11 +17,6 @@
 
 </p>
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sharecmp-polarization-aware-rgb-p-semantic/semantic-segmentation-on-uplight)](https://paperswithcode.com/sota/semantic-segmentation-on-uplight?p=sharecmp-polarization-aware-rgb-p-semantic) \
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sharecmp-polarization-aware-rgb-p-semantic/semantic-segmentation-on-zju-rgb-p)](https://paperswithcode.com/sota/semantic-segmentation-on-zju-rgb-p?p=sharecmp-polarization-aware-rgb-p-semantic) \
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sharecmp-polarization-aware-rgb-p-semantic/semantic-segmentation-on-mcubes-p)](https://paperswithcode.com/sota/semantic-segmentation-on-mcubes-p?p=sharecmp-polarization-aware-rgb-p-semantic) \
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sharecmp-polarization-aware-rgb-p-semantic/semantic-segmentation-on-mcubes)](https://paperswithcode.com/sota/semantic-segmentation-on-mcubes?p=sharecmp-polarization-aware-rgb-p-semantic)
-
 ## Introduction
 
 The official implementation of **ShareCMP: Polarization-Aware RGB-P Semantic Segmentation**.
@@ -110,5 +105,9 @@ bash tools/dist_test.sh configs/sharecmp/sharecmp_mit-b2_2xb4-200e_uplight-512x6
   author={Liu, Zhuoyan and Wang, Bo and Wang, Lizhi and Mao, Chenyu and Li, Ye},
   journal={IEEE Transactions on Circuits and Systems for Video Technology},
   year={2025},
+  volume={35},
+  number={10},
+  pages={10316-10329},
+  doi={10.1109/TCSVT.2025.3570764},
 }
 ```
