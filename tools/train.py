@@ -7,7 +7,6 @@ import os.path as osp
 from mmengine.config import Config, DictAction
 from mmengine.logging import print_log
 from mmengine.runner import Runner
-
 from mmseg.registry import RUNNERS
 
 
@@ -30,11 +29,11 @@ def parse_args():
         nargs='+',
         action=DictAction,
         help='override some settings in the used config, the key-value pair '
-        'in xxx=yyy format will be merged into config file. If the value to '
-        'be overwritten is a list, it should be like key="[a,b]" or key=a,b '
-        'It also allows nested list/tuple values, e.g. key="[(a,b),(c,d)]" '
-        'Note that the quotation marks are necessary and that no white space '
-        'is allowed.')
+             'in xxx=yyy format will be merged into config file. If the value to '
+             'be overwritten is a list, it should be like key="[a,b]" or key=a,b '
+             'It also allows nested list/tuple values, e.g. key="[(a,b),(c,d)]" '
+             'Note that the quotation marks are necessary and that no white space '
+             'is allowed.')
     parser.add_argument(
         '--launcher',
         choices=['none', 'pytorch', 'slurm', 'mpi'],
@@ -69,9 +68,6 @@ def main():
         import_dir = cfg.import_dir
         module_path = import_dir.replace('/', '.')
         import_lib = importlib.import_module(module_path)
-
-        if hasattr(cfg, 'with_denoise') and cfg.with_denoise:
-            import_lib.register_ddp_with_denoise()
     # --------------------------------------------------------
 
     # work_dir is determined in this priority: CLI > segment in file > filename
